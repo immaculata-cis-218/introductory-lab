@@ -22,5 +22,5 @@ If you get stuck at any point, please do not hesitate to ask for guidance.
 
 | Points | Criteria                                           |
 | ------ | -------------------------------------------------- |
-| 5      | Pull request created with your changes to main.py  |
-| 5      | Program displays your name and the welcome message |
+| 20     | Pull request created with your changes to main.py  |
+| 20     | Program displays your name and the welcome message |
