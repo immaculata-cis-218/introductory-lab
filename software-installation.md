@@ -76,8 +76,8 @@ The following guides provide the steps needed to install Python3 and the Visual 
     This will enable VSCode to provide type and style hints as you type python code.
 
 ## ChromeOS
-Follow the guide provided in the following blog post for specifics on installing on ChromeOS:
-https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started
+Follow the guide provided in the following blog post for specifics on installing VSCode on ChromeOS:
+[Learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started)
 
 You will need to:
 1. [Enable Linux](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started#_enable-linux-on-your-chromebook) on your Chromebook
