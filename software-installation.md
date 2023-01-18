@@ -1,8 +1,9 @@
 # CIS-218 Software Installation
 The following guides provide the steps needed to install Python3 and the Visual Studio Code IDE in:
-* macOS
-* Windows
-* Web browser (Experimental)
+* [macOS](#macos)
+* [Windows](#windows)
+* [ChromeOS](#chromeos)
+* [Web browser](#web-browser)
 
 ## macOS
 
@@ -74,7 +75,27 @@ The following guides provide the steps needed to install Python3 and the Visual 
 12. Install the [VSCode extension for Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     This will enable VSCode to provide type and style hints as you type python code.
 
-## Web Browser (Experimental)
+## ChromeOS
+Follow the guide provided in the following blog post for specifics on installing VSCode on ChromeOS:
+[Learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started)
+
+You will need to:
+1. [Enable Linux](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started#_enable-linux-on-your-chromebook) on your Chromebook
+2. Open the `Terminal` application on your Chromebook and install `gnome-keyring`:
+   ```
+   sudo apt-get update
+   sudo apt-get install -y gnome-keyring
+   ```
+3. [Download VSCode for Linux](https://code.visualstudio.com/download) using the Debian (.deb) build appropriate for your system. You can run the following command to determine if your Chromebook is AMD64 (64 Bit) or ARM64:
+   ```
+   dpkg --print-architecture
+   ```
+4. Open the installer from your Downloads folder.
+5. Open the `VSCode` application on your Chromebook
+
+   > You may be prompted to save a password for the keyring when you load the program.
+
+## Web Browser
 Visual Studio Code for the web is based on a relatively new concept of running Python 3.11+ in Web Assembly (WASM) which allows for code to be run executed in the web browser. Because of this, you'll need to use experimental features of Visual Studio Code for the web if you want to execute your code in this manner. There may be a few labs where the browser version will not have all of the functionality needed to complete your lab in its entirety.
 
 1. To write Python code on Visual Studio for the web using Google Chrome or Microsoft Edge, use the "insider" version from https://insiders.vscode.dev/?vscode-coi=
