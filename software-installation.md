@@ -94,6 +94,8 @@ You will need to:
 5. Open the `VSCode` application on your Chromebook
 
    > You may be prompted to save a password for the keyring when you load the program.
+6. Install the [VSCode extension for Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+    This will enable VSCode to provide type and style hints as you type python code.
 
 ## Web Browser
 Visual Studio Code for the web is based on a relatively new concept of running Python 3.11+ in Web Assembly (WASM) which allows for code to be run executed in the web browser. Because of this, you'll need to use experimental features of Visual Studio Code for the web if you want to execute your code in this manner. There may be a few labs where the browser version will not have all of the functionality needed to complete your lab in its entirety.
