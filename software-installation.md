@@ -1,9 +1,9 @@
 # CIS-218 Software Installation
 The following guides provide the steps needed to install Python3 and the Visual Studio Code IDE in:
-* macOS
-* Windows
-* ChromeOS
-* Web browser (Experimental)
+* [macOS](#macos)
+* [Windows](#windows)
+* [ChromeOS](#chromeos)
+* [Web browser](#web-browser)
 
 ## macOS
 
@@ -95,7 +95,7 @@ You will need to:
 
    > You may be prompted to save a password for the keyring when you load the program.
 
-## Web Browser (Experimental)
+## Web Browser
 Visual Studio Code for the web is based on a relatively new concept of running Python 3.11+ in Web Assembly (WASM) which allows for code to be run executed in the web browser. Because of this, you'll need to use experimental features of Visual Studio Code for the web if you want to execute your code in this manner. There may be a few labs where the browser version will not have all of the functionality needed to complete your lab in its entirety.
 
 1. To write Python code on Visual Studio for the web using Google Chrome or Microsoft Edge, use the "insider" version from https://insiders.vscode.dev/?vscode-coi=
